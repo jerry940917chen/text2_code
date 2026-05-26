@@ -89,8 +89,6 @@ def divide(a, b):
 def calculate():
     x = 100
     y = 200
-    z = 300  # unused variable
-
     return x + y
 
 
@@ -112,7 +110,7 @@ def add_numbers2(a, b):
 # =========================
 # Infinite Recursion
 # =========================
-def recursive():
+def recursiv():
     return recursive()
 
 
@@ -204,7 +202,6 @@ def huge_function():
 # =========================
 def test_return():
     return True
-    print("Never execute")
 
 
 # =========================
